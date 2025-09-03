@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_soldier_shield_spin"
+	"%keywords" "tf"
+	"$translucent" 1
+	"$vertexalpha" 1
+}

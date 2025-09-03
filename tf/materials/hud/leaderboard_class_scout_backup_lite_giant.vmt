@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "hud/leaderboard_class_scout_backup_lite"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	"$translucent" 1
+}
+
+

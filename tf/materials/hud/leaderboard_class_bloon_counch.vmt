@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"hud/leaderboard_class_bloon_counch"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

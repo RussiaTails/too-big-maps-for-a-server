@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_pyro_dragon_fury_redbarrier_spin_giant"
+	"%keywords" "tf"
+	"$translucent" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}

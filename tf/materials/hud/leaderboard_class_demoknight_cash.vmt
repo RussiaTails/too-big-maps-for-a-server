@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_demoknight_cash"
+	"%keywords" "tf"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

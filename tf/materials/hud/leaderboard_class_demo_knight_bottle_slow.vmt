@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/logos/leaderboard_class_demo_knight_bottle_slow"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

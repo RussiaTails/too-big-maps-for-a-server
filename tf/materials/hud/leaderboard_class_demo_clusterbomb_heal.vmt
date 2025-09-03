@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_demo_clusterbomb_heal"
+	"%keywords" "tf"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

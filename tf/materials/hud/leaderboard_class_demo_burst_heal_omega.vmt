@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_demo_burst_heal_omega"
+	"$translucent" 1
+}

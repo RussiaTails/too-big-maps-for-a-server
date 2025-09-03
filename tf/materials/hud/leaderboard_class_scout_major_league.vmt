@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_scout_major_league"
+	"$translucent" 1
+}

@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_sentry_buster_milk"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"%keywords" "tf"
+	"$vertexalpha" "1"
+}

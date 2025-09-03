@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_medic_kritz_titan"
+	"$translucent" 1
+}

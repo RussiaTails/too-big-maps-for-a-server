@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_scout_winger_backup"
+	"%keywords" "tf"
+	"$translucent" 1
+	"$vertexalpha" 1
+}

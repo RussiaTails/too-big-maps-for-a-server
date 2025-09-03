@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_pyro_critonkill"
+	"$translucent" 1
+}

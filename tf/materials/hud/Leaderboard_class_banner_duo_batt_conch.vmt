@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_banner_duo_batt_conch"
+	"$translucent" 1
+}

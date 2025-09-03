@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_heavy_steelfist_critbuff_red"
+	"%keywords" "tf"
+	"$translucent" 1
+	"$vertexalpha" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+}

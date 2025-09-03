@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/scope_sniper_ll"
+	
+	<dx90
+	{
+		 	"$fallbackmaterial" "hud/scope_sniper_ll_dx80"
+	}
+
+ 	"$model" 1
+	"$bumpframe" "0"
+	"$alphatest" "1"
+	"$ignorez" "1"
+	"$nofog" "1"
+
+}
+
+

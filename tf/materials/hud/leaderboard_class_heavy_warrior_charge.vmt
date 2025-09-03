@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "hud/leaderboard_class_heavy_warrior_charge"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	"$translucent" 1
+}
+
+

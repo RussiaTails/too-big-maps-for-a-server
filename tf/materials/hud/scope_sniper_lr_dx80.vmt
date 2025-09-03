@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/scope_sniper_lr"
+ 	"$model" 1
+	"$bumpframe" "0"
+	"$alphatest" "1"
+	"$ignorez" "1"
+	"$nofog" "1"
+
+}
+
+

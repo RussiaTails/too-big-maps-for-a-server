@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_pshrimp"
+	"$translucent" 1
+	"$no_fullbright" 1
+
+}

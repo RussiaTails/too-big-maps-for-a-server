@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_soldier_dh_buff_nys"
+	"$translucent" 1
+}

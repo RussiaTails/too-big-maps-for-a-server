@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_syringe"
+	"$translucent" 1
+	"$no_fullbright" 1
+}

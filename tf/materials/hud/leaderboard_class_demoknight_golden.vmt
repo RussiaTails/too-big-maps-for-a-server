@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_demoknight_golden"
+	"$translucent" 1
+}

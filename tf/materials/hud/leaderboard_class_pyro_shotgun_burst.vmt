@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_pyro_shotgun_burst"
+	"%keywords" "tf"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

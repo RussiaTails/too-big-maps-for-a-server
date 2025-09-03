@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_engineer_medic_ambush"
+	"$translucent" 1
+}

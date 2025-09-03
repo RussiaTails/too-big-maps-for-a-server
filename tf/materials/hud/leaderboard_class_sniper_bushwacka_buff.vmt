@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_sniper_bushwacka_buff"
+	"%keywords" "tf"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

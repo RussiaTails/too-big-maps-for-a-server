@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/logos/Leaderboard_class_blackbox_conch"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

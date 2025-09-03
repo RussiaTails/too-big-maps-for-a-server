@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/logos/hud_leaderboard_powerup_haste"
+	"$translucent" "1"
+	"%keywords" "tf"
+	"$no_fullbright" 1
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

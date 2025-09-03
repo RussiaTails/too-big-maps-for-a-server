@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_heavy_deflector_hok_titan"
+	"$translucent" 1
+}

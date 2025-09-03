@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/leaderboard_class_heavy_champ_ambush"
+	"$translucent" 1
+}
