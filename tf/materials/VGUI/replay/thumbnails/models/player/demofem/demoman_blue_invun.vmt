@@ -1,0 +1,10 @@
+"Patch"
+{
+	include "materials\models\player\shared\blue_invun.vmt"
+	
+	insert
+	{
+	"$basetexture"	"vgui/replay/thumbnails/models/player/demofem/demoman_blue"
+	}
+}
+

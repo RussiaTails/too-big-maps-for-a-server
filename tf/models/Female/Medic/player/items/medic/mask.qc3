@@ -1,0 +1,17 @@
+$cd "C:\Program Files (x86)\Steam\steamapps\chemicalalia\team fortress 2\tf\models\player\items\medic"
+$modelname "player\items\medic\medic_mask.mdl"
+$model "Body" "medic_mask_reference.dmx.smd"
+$cdmaterials "\models\player\items\medic\"
+$cdmaterials ""
+$texturegroup skinfamilies
+{
+	{ "models/player/items/medic/medic_mask_red.vmt" }
+	{ "medic_mask_blue.vmt" }
+}
+$hboxset "default"
+$hbox 0 "bip_head" -3.328  -2.921  -6.754  3.328  3.634  0.172
+// Model uses material "models/player/items/medic/medic_mask_red.vmt"
+// Model uses material "medic_mask_blue.vmt"
+$surfaceprop "default"
+$illumposition 2.726 0.000 76.178
+$sequence idle "idle" fps 30.00

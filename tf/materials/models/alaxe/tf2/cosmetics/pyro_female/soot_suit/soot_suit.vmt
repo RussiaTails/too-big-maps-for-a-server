@@ -1,0 +1,83 @@
+VertexLitGeneric
+{
+	$basetexture "models\alaxe\tf2\cosmetics\pyro_female\soot_suit/soot_suit"
+	$bumpmap "models\alaxe\tf2\cosmetics\pyro_female\soot_suit/soot_suit_nm"
+//	"$envmap" "env_cubemap"
+//	"$envmapcontrast" "0"
+//	"$envmaptint" " [.6 .55 .45]"
+//	"$envmapmask" "models/player/pyro/pyro_envmask"
+	"$phongalbedotint" "1"
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detailscale" "5"
+	"$detailblendfactor" 0.0
+	"$detailblendmode" 6
+
+	"$yellow" "0"
+	"$one" "1"
+
+	"$phong" "1"
+	"$phongexponenttexture" "models\alaxe\tf2\cosmetics\pyro_female/shared/flat_exp"
+
+	"$phongboost" "0.9"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[2 1 5]"
+	"$halflambert" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "0.5"										// Boost for ambient cube component of rim lighting
+
+
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"0.000000"
+	"$colortint_base"		"{ 88 67 62 }"
+	"$color2"		"{ 88 67 62 }"
+	"$colortint_tmp"		"[0 0 0]"
+
+
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	">=DX90"
+	{
+		"$selfillum"		"0"
+	}
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"ItemTintColor"
+		{
+			"resultVar" "$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"	"$colortint_tmp"
+			"srcVar2"	"$colortint_base"
+			"resultVar" "$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$color2"
+			"srcVar2" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

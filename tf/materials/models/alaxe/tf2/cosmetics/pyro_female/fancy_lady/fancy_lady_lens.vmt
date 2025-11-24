@@ -1,0 +1,16 @@
+"Refract"
+{
+ 	"$model" 1
+	"$nodecal" 1
+//	"$bluramount" 1
+ 	"$refractamount" "-.00854"
+	"$REFRACTTINT" "{246 250 255}"
+	"$scale" "[1 1]"
+ 	"$dudvmap" "models\alaxe\tf2\cosmetics\pyro_female\fancy_lady/fancy_lady_lens_dudv"
+	"$normalmap" "models\alaxe\tf2\cosmetics\pyro_female\fancy_lady/fancy_lady_lens_normal"
+	"$color2"		"{ 255 255 255 }"
+
+
+}
+
+

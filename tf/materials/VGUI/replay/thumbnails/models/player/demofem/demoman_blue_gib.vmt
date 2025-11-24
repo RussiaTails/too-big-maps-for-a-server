@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/models/player/demofem/demoman_blue_gib"
+	"$bumpmap" "vgui/replay/thumbnails/models/player/demofem/demoman_normal_gib"
+	"$surfaceprop"	"flesh"
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".5"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[1 10 20]"
+	"$halflambert" "1"
+
+	"$rimlight" "1"												
+	"$rimlightexponent" "4"										
+	"$rimlightboost" "2"										
+}

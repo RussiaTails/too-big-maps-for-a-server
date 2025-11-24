@@ -1,0 +1,20 @@
+$cd "C:\Program Files (x86)\Steam\steamapps\chemicalalia\team fortress 2\tf\models\player\items\all_class"
+$modelname "player/items/all_class/generous_engineer.mdl"
+$model "body" "generous_hat_engineer_Female.smd"
+
+$hboxset "default"
+$hbox 0 "prp_hat" -8.555  -7.687  -10.583  9.789  16.504  10.176
+// Model uses material "models/player/items/all_class/allclass_generous.vmt"
+// Model uses material "models/player/items/all_class/anim/the_glow.vmt"
+// Model uses material "allclass_generous_blue.vmt"
+// Model uses material "the_glow_blue.vmt"
+$surfaceprop "default"
+$illumposition 1.462 0.617 11.353
+$sequence idle "idle" fps 30.00
+$collisionmodel "phymodel.smd" {
+
+	$mass 5.0
+	$inertia 1.00
+	$damping 0.00
+	$rotdamping 0.00
+}

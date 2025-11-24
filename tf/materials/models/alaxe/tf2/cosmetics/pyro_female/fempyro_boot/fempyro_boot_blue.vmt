@@ -1,0 +1,48 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\alaxe\tf2\cosmetics\pyro_female\fempyro_boot/fempyro_boot_blue"
+	"$bumpmap" "models\alaxe\tf2\cosmetics\pyro_female\fempyro_boot/fempyro_boot_nm"
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"
+	"$detailscale" "5"
+	"$detailblendfactor" "0.0"
+	"$detailblendmode" "6"
+
+	"$bumpmapalphaphongmask" "1"
+	"$yellow" "0"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".6"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges" "[2 1 5]"
+	"$halflambert" "1"
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "2"
+	"$CloakPassEnabled" "1"	
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$yellow"
+			"resultVar" "$color2"
+		}
+
+	}
+}

@@ -1,0 +1,6 @@
+"UnLitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/textures/eyeball_invun"
+	"$surfaceprop"	"flesh"
+	"$model"		1
+}
